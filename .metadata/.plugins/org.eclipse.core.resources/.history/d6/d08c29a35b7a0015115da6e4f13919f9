@@ -17,17 +17,8 @@ public class Node {
 		return data%1000;
 	}
 	
-	public int getData() {
-		return data;
-	}
 	public Node getNext() {
 		return next;
-	}
-	public void setNext(Node node) {
-		next = node;
-	}
-	public void print() {
-		System.out.println(data);
 	}
 
 }

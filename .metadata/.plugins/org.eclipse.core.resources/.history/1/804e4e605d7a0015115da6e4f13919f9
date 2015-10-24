@@ -1,0 +1,27 @@
+package hackerrank;
+
+import structures.Node;
+
+public class NodeReverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public Node reverse(Node head) {
+		if ((head == null) || (head.getNext() == null)) {
+			return head;
+		}
+		Node temp1 = head;
+		Node temp2 = head.getNext();
+		while (head.getNext() != null) {
+			temp1 = temp2.getNext();
+			temp2.setNext(head);
+			head = temp2;
+		}
+		
+		return head;
+	}
+
+}

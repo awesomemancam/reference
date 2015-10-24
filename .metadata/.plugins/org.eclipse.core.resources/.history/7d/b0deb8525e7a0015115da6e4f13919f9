@@ -26,8 +26,5 @@ public class Node {
 	public void setNext(Node node) {
 		next = node;
 	}
-	public void print() {
-		System.out.println(data);
-	}
 
 }
