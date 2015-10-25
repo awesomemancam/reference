@@ -15,7 +15,6 @@ public class NodeReverse {
 	}
 	
 	public static Node reverse(Node head) {
-		//TODO
 		if ((head == null) || (head.getNext() == null)) {
 			return head;
 		}
