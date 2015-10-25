@@ -19,7 +19,6 @@ public class Node {
 	}
 	public Node getNext() {
 		return next;
-		//not included on hackerrank
 	}
 	public void setNext(Node node) {
 		next = node;
