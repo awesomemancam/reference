@@ -1,0 +1,17 @@
+package structures;
+
+public class Heap {
+	
+	Node[] data;
+	int size;
+	
+	public Heap() {
+		size = 0;
+		data = new Node[1];
+	}
+	
+	public void insert() {
+		
+	}
+
+}

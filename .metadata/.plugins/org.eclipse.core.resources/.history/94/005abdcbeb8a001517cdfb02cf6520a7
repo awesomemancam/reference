@@ -1,0 +1,13 @@
+package structures;
+
+public class Heap {
+	
+	int[] data;
+	int size;
+	
+	public Heap() {
+		size = 0;
+		data = new int[1];
+	}
+
+}
