@@ -1,0 +1,20 @@
+package structures.bst;
+
+public class BST {
+	
+	private Node head;
+	private int height;
+	
+	public BST() {
+		head = null;
+		height = 0;
+	}
+	
+	public BST(Node head) {
+		this.head = head;
+		height = 1;
+	}
+	
+	
+
+}

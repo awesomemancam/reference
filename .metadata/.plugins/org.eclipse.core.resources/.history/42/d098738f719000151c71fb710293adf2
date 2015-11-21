@@ -1,0 +1,46 @@
+package structures.bst;
+
+public class BST {
+	
+	private Node head;
+	private int height;
+	
+	public BST() {
+		head = null;
+		height = 0;
+	}
+	
+	public BST(Node head) {
+		this.head = head;
+		height = 1;
+	}
+	
+	public Node search(int data) {
+		Node current = head;
+		if (current == null) {
+			return null;
+		}
+		while (current.getData() != data) {
+			if (data < current.getData()) {
+				current = current.getLeft();
+			} else if (data > current.getData()) {
+				current = current.getRight();
+			}
+			if (current == null) {
+				return null;
+			}
+		}
+		return current;
+	}
+	
+	public void insert(Node node) {
+		Node current = head;
+		if (current == null) {
+			current = node;
+		}
+		while (current != node) {
+			
+		}
+	}
+
+}
