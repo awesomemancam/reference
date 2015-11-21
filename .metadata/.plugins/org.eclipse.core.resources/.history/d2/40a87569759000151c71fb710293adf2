@@ -43,10 +43,6 @@ public class BST {
 			}
 		}
 	}
-	
-	public Node delete() {
-		//TODO
-	}
 
 	public void inOrder(Node root) {
 		if (root != null) {
@@ -55,6 +51,7 @@ public class BST {
 			inOrder(root.getRight());
 		}
 	}
+	
 	public void preOrder(Node root) {
 		if (root != null) {
 			System.out.println(root);
@@ -62,6 +59,7 @@ public class BST {
 			preOrder(root.getRight());
 		}
 	}
+	
 	public void postOrder(Node root) {
 		if (root != null) {
 			postOrder(root.getLeft());

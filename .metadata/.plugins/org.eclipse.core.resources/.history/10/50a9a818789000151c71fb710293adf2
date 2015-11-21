@@ -43,10 +43,6 @@ public class BST {
 			}
 		}
 	}
-	
-	public Node delete() {
-		//TODO
-	}
 
 	public void inOrder(Node root) {
 		if (root != null) {
