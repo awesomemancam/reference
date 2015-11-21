@@ -1,8 +1,0 @@
-package structures;
-
-public class Heap {
-	
-	int[] data = new int[2];
-	int size = 0;
-
-}
